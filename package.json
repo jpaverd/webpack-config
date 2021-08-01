@@ -1,0 +1,29 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaverd/webpack-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaverd/webpack-config/issues"
+  },
+  "homepage": "https://github.com/jpaverd/webpack-config#readme",
+  "devDependencies": {
+    "webpack": "~5.47.1",
+    "webpack-cli": "~4.7.2",
+    "webpack-dev-server": "~3.11.2"
+  }
+}
